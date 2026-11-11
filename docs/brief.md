@@ -26,11 +26,25 @@ Our material: **Group 5 — precipitation-hardenable steel, PH174 (17-4PH)**. Th
 
 15 minutes + up to 20 minutes Q&A.
 
-## Grading
+## Marking rubric (100 marks)
 
-- Group performance
-- Your individual contribution
-- **Your performance in Q&A** — everyone gets asked, so everyone must run the analyses themselves.
+| Item | Marks | What they look for |
+|---|---|---|
+| **Understanding** | **40** | Solid understanding with depth in presenting analysis results, discussion and conclusions, **and in Q&A** |
+| **Presentation delivery** | **20** | Eye contact, **no reading from the slides**, enthusiasm, clear speaking |
+| Slides – Visual | 10 | Visually clear, good descriptions and formats |
+| Slides – Effectiveness | 10 | Tells the story; balance of text and figures/tables that readers can interpret |
+| Handling Q&A | 10 | Clear answers backed by the slides; **acknowledges strengths and weaknesses of our work** |
+| Slides – Structure | 5 | Well structured, coherent, good flow |
+| Pace and timing | 5 | Good pace, stays within 15 min |
+
+**What this means for us:**
+- **Understanding + Q&A = 50 marks.** Everyone gets asked questions, so everyone must run the notebooks and be able to explain every figure, not just their own.
+- **The slides themselves are only 25 marks.** Use figures and tables, not dense text, and write a takeaway headline on each slide.
+- **Delivery is 20 marks.** Rehearse until nobody reads from the slides; keep the full script in the speaker notes, not on the slide.
+- **Limitations earn marks.** "Acknowledge strengths and weaknesses" is in the rubric, so the data-quality and limitations slide is worth having, and Q&A answers should admit what the data can't show.
+
+Grade is based on group performance, your individual contribution and your Q&A.
 
 ## Must do
 

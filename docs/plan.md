@@ -22,7 +22,8 @@ Status: ⬜ not started · 🟨 in progress · ✅ done
 | **Fri 13 Nov** | Everyone has cloned the repo, added the data and run the 3 notebooks. Owners agreed. |
 | **Mon 23 Nov** | First drafts: lit-review notes, all figures, key findings written in `docs/findings.md`. |
 | **Mon 30 Nov** | Full draft deck. Group review. |
-| **Thu 3 Dec** | Rehearsal + mock Q&A (everyone answers questions outside their own area). |
+| **Tue 1 Dec** | Mock Q&A #1: everyone answers questions on a section that **isn't** theirs (Understanding + Q&A = 50% of the mark). |
+| **Thu 3 Dec** | Full timed rehearsal (≤15 min, no reading from slides) + mock Q&A #2. |
 | **Mon 7 Dec, 3pm** | **Submit slides.** |
 | **Wed 9 Dec** | **Present.** |
 

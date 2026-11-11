@@ -22,4 +22,11 @@
 | 14 | Conclusions | — | 0:45 |
 | A1–A2 | **Appendix:** each member's main contribution (not presented) | `docs/plan.md` | — |
 
-Rehearse with a timer; 15 minutes goes fast.
+## Slide rules (from the rubric — see `docs/brief.md`)
+
+- **Headline = takeaway.** Write "Heat treatment, not laser power, drives 17-4PH yield strength", not "Yield stress results".
+- **Figures and tables first.** No more than ~3 short bullets per slide; the full script goes in the speaker notes.
+- **One consistent style:** same template, fonts and colours (17-4PH vs 316L in the same two colours everywhere), axis labels with units, and the source on every borrowed figure.
+- **Keep the limitations slide.** Acknowledging weaknesses is explicitly marked.
+- **Timing:** about 1 minute per slide. Rehearse with a timer and cut content rather than speaking faster.
+- **Backup slides** after the appendix for likely questions (e.g. the printer-effect detail, row counts per map). Answering "with support provided in the slides" is in the rubric.
