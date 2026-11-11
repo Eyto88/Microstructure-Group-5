@@ -1,0 +1,19 @@
+# Course data - keep on your own laptop only (repo is public)
+data/*
+!data/README.md
+
+# Excel/Office lock files
+~$*
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

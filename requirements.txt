@@ -1,0 +1,15 @@
+# Most of these come with Anaconda; the rest install with: pip install -r requirements.txt
+numpy
+pandas
+openpyxl
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+jupyter
+# Optional - only for the course ML_Models notebook
+# xgboost
+# lightgbm
+# catboost
+# optuna
