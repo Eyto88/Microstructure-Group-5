@@ -4,7 +4,7 @@ One section per analysis. Write the **result**, the **number/figure** behind it,
 
 ## Data overview
 
-- 219 rows of 17-4PH from ~44 papers (all LPBF); 316L has 278 rows from 22 papers.
+- 219 rows of 17-4PH from ~33 papers (all LPBF); after removing the wrong/modified alloy and duplicates, 196 rows from 31 papers. 316L has 278 rows from 22 papers. (An earlier count of ~44 split papers whose year was missing.)
 - ~121 of the 17-4PH rows are heat treated or HIPed; almost all 316L rows are as-built.
 - Only 56 17-4PH rows record the printer manufacturer.
 

@@ -65,7 +65,7 @@ It adds short column names, cleans manufacturer spellings (EOS / EOSINT / "EOS G
 
 | | 17-4PH | 316L |
 |---|---|---|
-| Rows / papers | 219 / ~44 | 278 / 22 |
+| Rows / papers | 219 / ~33 (196 / 31 after cleaning) | 278 / 22 |
 | Yield stress values | 158 | 70 |
 | Density values | 125 | 273 |
 | Heat treated / HIP rows | ~121 | 9 |
