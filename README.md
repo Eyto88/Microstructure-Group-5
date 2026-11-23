@@ -25,6 +25,9 @@ Internal milestones are in [`docs/plan.md`](docs/plan.md).
 | [`notebooks/course_original/`](notebooks/course_original/) | Untouched course notebooks (outputs cleared, MIT licence), for reference only — they won't find the data from here |
 | [`notebooks/analysis/`](notebooks/analysis/) | Your own extra notebooks — name them `NN_topic_initials.ipynb` |
 | [`src/group5_data.py`](src/group5_data.py) | Shared loader that cleans the data (see below) |
+| [`src/group5_clean.py`](src/group5_clean.py) | **Cleaned 17-4PH set (185 rows, 31 papers)** with named heat treatments; steps in [`docs/cleaning-log.md`](docs/cleaning-log.md) |
+| [`docs/findings.md`](docs/findings.md) | Results so far: EDA, printer vs lab effect, process maps, ML |
+| [`docs/statistics-explained.md`](docs/statistics-explained.md) | Spearman vs Pearson, Kruskal–Wallis ε², why we hold out whole papers |
 | [`figures/`](figures/) | Figures for the slides, by section — the notebooks save here automatically |
 | [`presentation/`](presentation/) | Slide outline and final deck |
 
@@ -88,3 +91,19 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) — short version: **pull before you st
 | | | |
 
 *(Fill in — see `docs/plan.md` for the task split.)*
+
+## Cleaned 17-4PH data (use this for 17-4PH analysis)
+
+```python
+import sys; sys.path.append('../../src')
+from group5_clean import load_clean
+ph = load_clean(verbose=True)          # 185 rows, 31 papers, with the cleaning steps printed
+ph.ht_route.value_counts()             # named heat treatments, e.g. 'Solution + H900'
+```
+
+Rules we agreed from the EDA (details in [`docs/findings.md`](docs/findings.md)):
+1. Split by **named** heat treatment, never just "treated / not treated".
+2. Report **papers** as well as rows; rows from one paper aren't independent.
+3. Correlations: Spearman, one point per paper and setting.
+4. Models: hold out whole papers (GroupKFold) and compare with the median-per-treatment baseline.
+
